@@ -10,8 +10,8 @@ print "temperatures."
 print
 
 fahrenheit = input ("Enter the temperature in degrees Fahrenheit: ")
-centigrade =  (fahrenheit - 32)* 5/9.0
-print "The equivalent temperature in degrees Centigrade is %0.0f" % centigrade
+centigrade =  (fahrenheit - 32)* 5/9.0 #farenheit to centigrade conversion
+print "The equivalent temperature in degrees Centigrade is %0.0f" % #centigrade converts temperature into floating point for accuracy 
 print
 
 # check if weather warning needed
